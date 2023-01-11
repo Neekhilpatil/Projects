@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+section.bg-img{
+    background-image: url(/www.rolaxhotel.com/img/bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover; 
+
+}
+body{
+    overflow-x: hidden;
+}
+/* <-----header-start---------> */
+.content{
+    width: 90%;
+    height: 40px;
+    background-color: black;
+    color: white;
+    float: left;
+    padding: 10px;
+     
+}
+.icons{
+    display: flex;
+    width:10% ;
+    height: 40px;
+    background-color: black;
+    float: right;
+    /* justify-content: flex-end; */
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    
+}
+li {
+    list-style: none;
+}
+.icons a{
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+/* <-----headerend----> */
+/* <----navbar start----> */
+.container-fluid{
+    float: right;
+    font-size:20px;
+    background-color: transparent;
+}
+.navbar{
+    border-bottom: 1px solid white;
+}
+.booknow{
+    background-color:#e29c89;
+}
+/* <------navbar end----> */
+/* <----container-1----> */
+
+.container1{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    
+}
+.container1 .content1 h4{
+
+  text-align: center;
+  font-family:"Baskervville",serif;
+  font-size: 56px;
+  font-weight: 400px;
+  color: white;
+  line-height: 1.3;
+  margin-bottom: 50px;
+}
+/* <------container-1----------> */
+/* <------form-------> */
+.search{
+    font-family: sans-serif;
+    background: white;
+    color: black;
+    text-transform: capitalize;
+    font-weight:400; 
+    height: 36px;
+    font-size: 20px;
+    line-height: 18px;
+    padding: 10px;
+    margin-top:30px;
+    border-radius:4px;
+    text-align: center;
+}
+.search a{
+    color: black;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+/* <-------form-end----------->  */
+/* <-----section-1 start-------> */
+.content2{
+    font-family:"Baskervville",serif;
+}
+/* <----------section-1 end-------> */
+/* <-------section-2 start-------> */
+.section2 h4{
+    font-family: Baskervville;
+    font-size:46px;
+    font-weight: lighter;
+}
+
+/* <--------section-2 ends--------> */
+/* <-------section-3 start-------> */
+
+.sec-3{
+    font-family: baskervvile;
+}
+.sec-3 .heading{
+    text-decoration: dotted underline;
+}
+.sec-3 h2{
+    font-size: 42px;
+
+}
+.sec-3-title{
+    background-color: black;
+}
+.sec-3-title .sec-3-title-1{
+    color: white;
+}
+
+.sec-3-title:hover .sec-3-title-1{
+    cursor: pointer;
+   color: #e29c89;
+
+}
+.sec-3-title p{
+    font-size: 17px;
+}
+.sec-3-title button{
+  background-color:black;
+  color:#e29c89;
+}
+.sec-3-title button:hover{
+    background-color: #e29c89;
+    color: white;
+}
+
+
+
+
+/* <-----section-3 responsive end-------> */
+
+/* <!-- <-------------Section-3 ends------------>  */
+
+/* <!-- <-------------Section-4 starts------------>  */
+
+.bg-img2{
+    background-image: url(/www.rolaxhotel.com/img/video-bg.jpg.webp);
+    background-size:cover ;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.video-icon img{
+    width: 150px;
+}
+/* <--------------Section-4 end--------------------> */
+/* <---------------Section-5-starts--------------> */
+.sec-5{
+    font-family: baskervvile;
+}
+.sec-5-hover:hover{
+    opacity: 0.5;   
+}
+/* <---------------Section-5-end--------------> */
+
+/* <---------------Section-6-starts--------------> */
+
+/* <---------------Section-6-End--------------> */
+
+/* <---------------Footer-starts--------------> */
+.footer{
+    font-family: baskervvile;
+}
+.footer a{
+    text-decoration: none;
+    background-color: transparent;
+    color:grey;
+}
+
+/* <---------------Footer-end--------------> */
